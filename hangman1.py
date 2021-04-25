@@ -1,6 +1,6 @@
 import random
 #opening file
-file=open("/home/user/Desktop/hungman1/data_hun.text","r")
+file=open("/home/user/Desktop/simple_hangman/data_han.text","r")
 ls=[]
 for word in file:
     if "-" in word.strip():
